@@ -2,7 +2,7 @@
 
 **将可以pickle的对象加密并写入到文件**
 
-wb = openpyxl.load_workbook('../datafiles/金蝶-K3cloud(Oracle)-财务模块.xlsx')  # workbook对象
+wb = openpyxl.load_workbook('../datafiles/财务模块.xlsx')  # workbook对象
 
 MyAES().save_encrypt_obj(wb, '../datafiles/111.interface')  # 将一个对象变成pickle对象,然后对其加密,存放在path文件
 
